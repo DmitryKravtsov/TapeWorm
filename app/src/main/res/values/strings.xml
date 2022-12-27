@@ -5,4 +5,5 @@
     <string name="button3_label">Кнопка 3</string>
     <string name="button4_label">Кнопка 4</string>
     <string name="button5_label">Кнопка 5</string>
+    <string name="description_text">Изображения взяты с сайта kinopoisk.ru</string>
 </resources>

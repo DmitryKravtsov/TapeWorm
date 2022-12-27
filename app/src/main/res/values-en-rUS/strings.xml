@@ -6,4 +6,5 @@
     <string name="button3_label">Button 3</string>
     <string name="button4_label">Button 4</string>
     <string name="button5_label">Button 5</string>
+    <string name="description_text">Posters from kinopoisk.ru</string>
 </resources>
