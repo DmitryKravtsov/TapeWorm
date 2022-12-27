@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TapeWorm</string>
-    <string name="button1_label">Button 1</string>
-    <string name="button2_label">Button 2</string>
-    <string name="button3_label">Button 3</string>
-    <string name="button4_label">Button 4</string>
-    <string name="button5_label">Button 5</string>
+    <string name="button1_label">News</string>
+    <string name="button3_label">Catalogue</string>
+    <string name="button4_label">Settings</string>
+    <string name="button5_label">About</string>
     <string name="description_text">Posters from kinopoisk.ru</string>
+    <string name="button2_label">Favorites</string>
 </resources>
