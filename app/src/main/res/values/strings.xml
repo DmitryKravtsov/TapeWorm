@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TapeWorm</string>
+    <string name="button1_label">Кнопка 1</string>
+    <string name="button2_label">Кнопка 2</string>
+    <string name="button3_label">Кнопка 3</string>
+    <string name="button4_label">Кнопка 4</string>
+    <string name="button5_label">Кнопка 5</string>
 </resources>
