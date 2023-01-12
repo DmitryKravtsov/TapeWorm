@@ -7,4 +7,10 @@
     <string name="button5_label">About</string>
     <string name="description_text">Posters from kinopoisk.ru</string>
     <string name="button2_label">Favorites</string>
+    <string name="topAppBar_title">Main menu</string>
+    <string name="menu_news_text">News</string>
+    <string name="menu_favorites_text">Favorites</string>
+    <string name="menu_catalogue_text">Catalogue</string>
+    <string name="menu_settings_text">Settings</string>
+    <string name="menu_about_text">About</string>
 </resources>

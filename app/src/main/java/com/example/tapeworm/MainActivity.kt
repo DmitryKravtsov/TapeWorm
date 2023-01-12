@@ -10,24 +10,36 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button1.setOnClickListener{
-            Toast.makeText(this, button1.text, Toast.LENGTH_SHORT).show()
+        topAppBar.setOnMenuItemClickListener{
+            when (it.itemId) {
+                R.id.settings -> {
+                    Toast.makeText(this, "Настройки", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.about -> {
+                    Toast.makeText(this, "О программе", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
+            }
         }
 
-        button2.setOnClickListener{
-            Toast.makeText(this, button2.text, Toast.LENGTH_SHORT).show()
-        }
-
-        button3.setOnClickListener{
-            Toast.makeText(this, button3.text, Toast.LENGTH_SHORT).show()
-        }
-
-        button4.setOnClickListener{
-            Toast.makeText(this, button4.text, Toast.LENGTH_SHORT).show()
-        }
-
-        button5.setOnClickListener{
-            Toast.makeText(this, button5.text, Toast.LENGTH_SHORT).show()
+        bottom_navigation.setOnItemSelectedListener {
+            when (it.itemId){
+                R.id.news -> {
+                    Toast.makeText(this, "Новости", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.favorites -> {
+                    Toast.makeText(this, "Избранное", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.catalogue -> {
+                    Toast.makeText(this, "Каталог фильмов", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
+            }
         }
     }
 }
