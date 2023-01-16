@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">TapeWorm</string>
+    <string name="button1_label">Новости</string>
+    <string name="button2_label">Избранное</string>
+    <string name="button3_label">Каталог</string>
+    <string name="button4_label">Настройки</string>
+    <string name="button5_label">О программе</string>
+    <string name="menu_news_text">Новости</string>
+    <string name="menu_favorites_text">Избранное</string>
+    <string name="menu_catalogue_text">Каталог</string>
+    <string name="menu_settings_text">Настройки</string>
+    <string name="menu_about_text">О программе</string>
+    <string name="description_text">Изображения взяты с сайта kinopoisk.ru</string>
+    <string name="topAppBar_title">Главное меню</string>
 </resources>
